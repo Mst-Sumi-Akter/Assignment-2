@@ -167,6 +167,8 @@ main{
 .flower-text h2{
   font-size: 50px;
   font-weight: 700;
+  width: 80%;
+  /* border: 2px solid tomato; */
 }
 .flower-text li{
   font-size: 25px;
@@ -190,7 +192,7 @@ main{
 }
 
 /* responsive media query */
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
    .nav-links a{
 
     visibility: hidden;
@@ -248,4 +250,56 @@ width: 400px;
 height: 68px;
 margin: 0 auto;
 }
+/* flower lover section */
+.trusted-badge{
+  visibility: hidden;
+}
+ .flower-lovers {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  .flower-img {
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+  }
+
+  .flower-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 16px;
+    
+  }
+
+  .trusted-badge {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    margin: 0;
+  }
+
+  .flower-text {
+    width: 90%;
+    height: auto;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .flower-text h2 {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .flower-text li {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
 }
