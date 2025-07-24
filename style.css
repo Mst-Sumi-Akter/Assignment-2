@@ -153,7 +153,41 @@ main{
   width: 100%;
   margin-top: 30px;
 }
+/* flower lover section */
+.flower-lovers{
+  display: flex;
+  gap: 60px;
+  margin-top: 210px;
 
+}
+.flower-img{
+  width: 540px;
+  height: 597px;
+}
+.flower-text h2{
+  font-size: 50px;
+  font-weight: 700;
+}
+.flower-text li{
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+.flower-text{
+  width: 540px;
+  height: 521px;
+  margin-top: 38px;
+}
+.trusted-badge{
+  width: 286px;
+  height: 286px;
+  /* border: 2px solid tomato; */
+  position: absolute;
+  margin-left:-190px;
+   margin-top: -130px;
+
+}
 
 /* responsive media query */
 @media screen and (max-width:576px) {
