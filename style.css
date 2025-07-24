@@ -93,6 +93,67 @@ main{
     height: 355px; 
 }
 
+/* Products */
+.products {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.products h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.products .subtext {
+  font-size: 25px;
+  color: #666;
+  width: 888px;
+  /* border: 2px solid tomato; */
+   margin: 0 auto; /* This centers it horizontally */
+  text-align: center;
+
+}
+
+.product-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  
+}
+.product-card img {
+  width: 100%;
+  height: auto;
+ 
+}
+
+.product-card h3 {
+ margin-top: 30px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.product-card p {
+  color:rgb(17, 17, 17);
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+ 
+  
+}
+
+.product-card button {
+  padding: 20px 50px 20px 50px;
+  background-color: rgb(233, 90, 8);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  margin-top: 30px;
+}
+
 
 /* responsive media query */
 @media screen and (max-width:576px) {
@@ -133,5 +194,24 @@ main{
   font-weight: 400;
 }
 
-
+.product-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-left: 16px;
+  
+}
+.products h2 {
+ font-size: 26px;
+ font-weight: 700;
+  margin-bottom: 10px;
+}
+.products .subtext{
+  font-size: 16px;
+font-weight: 336;
+width: 400px;
+height: 68px;
+margin: 0 auto;
+}
 }
