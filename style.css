@@ -97,6 +97,7 @@ body{
 .products {
   text-align: center;
   margin-top: 120px;
+  width: 550px;
 }
 
 .products h2 {
@@ -351,7 +352,7 @@ body{
   border-top: 1px solid #ddd;
 }
 
-.footer .logo,
+.footer .logo1,
 .footer .link1, .footer .link2,
 .footer .social {
   flex: 1 1 200px;
@@ -367,7 +368,7 @@ font-size: 25px;
 margin-top: 10px;
 
 }
-.logo{
+.logo1{
   width: 135px;
 height: 82px;
 
@@ -397,8 +398,11 @@ height: 20px;
   transition: transform 0.3s ease;
 }
 
-/* responsive media query */
-@media screen and (max-width:768px) {
+@media (max-width:576px) {
+
+.main, .header ,.footer{
+    margin: 0 auto;
+  }
    .nav-links a{
 
     visibility: hidden;
@@ -435,7 +439,7 @@ height: 20px;
   font-size: 16px;
   font-weight: 400;
 }
-
+ /* <!-- Products Section --> */
 .product-grid {
   margin-top: 40px;
   display: grid;
@@ -464,7 +468,8 @@ margin: 0 auto;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    
   }
 
   .flower-img {
@@ -474,28 +479,25 @@ margin: 0 auto;
   }
 
   .flower-img img {
-    width: 100%;
+    width: 545px;
     height: auto;
     display: block;
     margin: 16px;
+    margin-top: -130px;
     
   }
-
-  .trusted-badge {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 120px;
-    height: 120px;
-    margin: 0;
-  }
-
+.flower-lovers h2{
+  margin: -15px;
+  margin-bottom: 10px;
+}
+  
+ 
   .flower-text {
-    width: 90%;
+    width: 500px;
     height: auto;
     margin-top: 0;
     text-align: left;
+    margin-left: 45px;
   }
 
   .flower-text h2 {
@@ -507,5 +509,98 @@ margin: 0 auto;
     font-size: 16px;
     margin: 10px 0;
   }
+/* <!-- === LATEST DEALS === --> */
+
+.deals-section h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 100px auto 16px;
+}
+
+.deals-section h3 span {
+  color: #f16429;
+}
+
+.deals-section p {
+  max-width: 336px;
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 0 auto 100px;
+  color: #555;
+}
+/* Plant Offer Section Styling */
+.container-1 {
+ flex-direction: column;
+}
+/* Newsletter Section */
+.newsletter {
+  width:100% ;
+  height: 100%;
+  padding: 110px 0px;
+  /* margin-left: 16px; */
+}
+.newsletter h2 {
+ font-size: 25px;
+ font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+
+
+
+.newsletter input[type="email"] {
+ 
+  width: 218px;
+  height: 40px;
+}
+
+.newsletter button {
+  background: #f16429;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+
+/* === FOOTER === */
+.footer {
+  flex-direction: column;
+  
+}
+
+.footer .logo,
+.footer .link1, .footer .link2,
+.footer .social {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+ /* border: 2px solid tomato; */
+}
+
+.footer p {
+font-size: 25px;
+margin-top: 10px;
+
+}
+.logo1{
+  width: 135px;
+height: 92px;
+
+}
+.link1{
+  margin-left: 0px;
+  margin-top: -50px;
+
+
+}
+.footer p {
+  width: 359px;
+font-size: 16px;
+margin-top: 10px;
+
+}
+
 
 }
