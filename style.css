@@ -97,7 +97,7 @@ body{
 .products {
   text-align: center;
   margin-top: 120px;
-  width: 550px;
+  /* width: 550px; */
 }
 
 .products h2 {
@@ -448,6 +448,10 @@ height: 20px;
   margin-left: 16px;
   
 }
+ .products{
+  width: 550px;
+
+ } 
 .products h2 {
  font-size: 26px;
  font-weight: 700;
