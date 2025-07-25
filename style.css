@@ -15,7 +15,7 @@
 body{
     background-color: rgb(245, 248, 255);
 }
-main{
+.main-part1, .footer{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -33,7 +33,7 @@ main{
 }
 .logo{
   height: 82px;
-  width: 135;
+  width: 135px;
 }
 
 .nav-links {
@@ -189,6 +189,212 @@ main{
   margin-left:-190px;
    margin-top: -130px;
 
+}
+/* Latest Deals Section */
+.deals-section {
+  background: #f5f7ff;
+  
+  text-align: center;
+}
+
+.deals-section h3 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 100px auto 16px;
+}
+
+.deals-section h3 span {
+  color: #f16429;
+}
+
+.deals-section p {
+  max-width: 800px;
+  font-size: 25px;
+  margin: 0 auto 100px;
+  color: #555;
+}
+/* Plant Offer Section Styling */
+.container-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1 1 30%;
+  /* border: 2px solid red; */
+  text-align:center;
+  
+}
+.right-column h2{
+  font-size: 40px;
+}
+.right-column a{
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.right-column {
+  flex: 1 1 65%;
+}
+
+.card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.card.small {
+  height: 150px;
+}
+
+.card.large {
+  height: 320px;
+}
+
+  
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    /* border: 2px solid red; */
+}
+
+
+.left-column h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
+  /* border: 2px solid turquoise; */
+}
+
+.overlay a {
+  color: white;
+  text-decoration: underline;
+  
+}
+.left-column  a  {
+ /* order: 2px solid rgb b(255, 0, 0); */
+  margin-bottom: 80px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-image: url('./assets/news-letter-bg.png'); /* Replace with your actual file */
+  background-size: cover;
+  background-position: center;
+  height: 533px;
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+  margin-top: 120px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers vertically */
+  align-items: center;     /* centers horizontally */
+
+}
+
+.newsletter h2 {
+ font-size: 50px;
+ font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: inline-flex;
+  background: white;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.newsletter input[type="email"] {
+  padding: 12px;
+  border: none;
+  outline: none;
+  width: 644px;
+  height: 50px;
+}
+
+.newsletter button {
+  background: #f16429;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+
+
+/* === FOOTER === */
+.footer {
+  /* background: #fff; */
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #ddd;
+}
+
+.footer .logo,
+.footer .link1, .footer .link2,
+.footer .social {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+ /* border: 2px solid tomato; */
+}
+
+.footer p {
+  width: 359px;
+ color: rgb(107, 114, 128);
+  font-weight:400; 
+font-size: 25px;
+margin-top: 10px;
+
+}
+.logo{
+  width: 135px;
+height: 82px;
+
+}
+.link1{
+  margin-left: 200px;
+
+
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 30px;
+ color: rgb(107, 114, 128);
+ font-weight:400 ;
+font-size: 18px;
+}
+
+.footer-social img {
+  width: 30px;
+height: 20px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
 /* responsive media query */
