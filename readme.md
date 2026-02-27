@@ -98,5 +98,4 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - CSS (Vanilla/ Talwind CSS only)
 - ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed.**
 
----
 
