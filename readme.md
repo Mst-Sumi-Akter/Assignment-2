@@ -84,7 +84,7 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 
 ## 🕛 Optional Part ( 0 Marks)
 
-`⚠️ You wont get any support for Optional part. Search Google and try it yourself`
+`You wont get any support for Optional part. Search Google and try it yourself`
 
 - Create an Animation for Trusted Plant Lover Badge
 
