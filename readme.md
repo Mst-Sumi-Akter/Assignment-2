@@ -4,7 +4,7 @@ GitHub Repository: https://github.com/Mst-Sumi-Akter/Assignment-2
 
 Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 
-## ✅ Main Requirements (50 Marks)
+## ✅ Main Requirements
 
 ### 1. Navbar
 
