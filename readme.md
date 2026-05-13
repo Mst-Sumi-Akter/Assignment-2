@@ -17,7 +17,7 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 
 ---
 
-### 2. Banner
+### 2. Banner design 
 
 - **Image** on the right
 - **Title and paragraph** on the left
