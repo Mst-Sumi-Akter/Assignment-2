@@ -35,7 +35,7 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - **Mobile Responsiveness:**
   - Display Cards in 2 Collumn
 
-------
+---
 
 ### 4. Plants Lover Section
 
@@ -98,4 +98,4 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - CSS (Vanilla/ Talwind CSS only)
 - ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed.**
 
-
+---
