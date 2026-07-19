@@ -12,8 +12,8 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - **Menu items** on the right with **cart icon**
 - **Mobile Responsiveness:**
   - Logo/website name on the left
-  - Cart icon with name on the right as Figma
-  - Other navbar elements will be hidden for cleaner         mobile experience
+  - Cart icon with name on the right as in Figma
+  - Other navbar elements will be hidden for a cleaner mobile experience
 
 ---
 
@@ -24,16 +24,16 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - **Mobile Responsiveness:**
   - Image moves to the top
   - Content after image
-  - Content left aligned as Figma
+  - Content left-aligned as Figma
 
 ---
 
 ### 3. Plants Section
 
 - centered **Title and subtitle** as Figma
-- **8 cards with 4 Collumn View** with image, name, price, and Add to cart button
+- **8 cards with 4-column view ** with image, name, price, and Add to cart button
 - **Mobile Responsiveness:**
-  - Display Cards in 2 Collumn
+  - Display Cards in 2 columns
 
 ---
 
@@ -44,7 +44,7 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - **Mobile Responsiveness:**
   - Image moves to the top
   - Content after image
-  - Content left aligned as Figma
+  - Content left-aligned as Figma
 
 ---
 
@@ -65,7 +65,7 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 
 ---
 
-## 🧪 Challenges Part ( 10 Mark)
+## 🧪 Challenges Part ( 10 Marks)
 
 ### Latest Deal Section
 
@@ -77,25 +77,25 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 
 ### Trusted Plant Lover Badge
 
-- Position a Trusted badge at the **Plant Lover** Image as Figma
-- - **Mobile Responsiveness:** Hide the Trusted badge in Mobile Device
+- Position a Trusted badge at the **Plant Lover** Image as in Figma
+- - **Mobile Responsiveness:** Hide the Trusted badon mobile devicesice
 
 ---
 
 ## 🕛 Optional Part ( 0 Marks)
 
-`You wont get any support for Optional part. Search Google and try it yourself`
+`You won't get any support for the optional part. Search Google and try it yourself.`
 
-- Create an Animation for Trusted Plant Lover Badge
+- Create an Animation for the Trusted Plant Lover Badge
 
-  - It will Spin infinite times
+  - It will spin infinitely
 
-- Show an Alert with a message `"Flower Added to Cart"` when some one click on **Add to Cart** Button
+- Show an Alert with a message `"Flower Added to Cart"` when someone clicks on the **Add to Cart** Button
 
 ## ⚙️ Technology Stack
 
 - HTML
-- CSS (Vanilla/ Talwind CSS only)
+- CSS (Vanilla/Tailwind CSS only)
 - ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed.**
 
 ---
