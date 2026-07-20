@@ -13,7 +13,7 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - **Mobile Responsiveness:**
   - Logo/website name on the left
   - Cart icon with name on the right as in Figma
-  - Other navbar elements will be hidden for a cleaner mobile experience
+  - Other navbar elements will be hidden for a cleaner       mobile experience.
 
 ---
 
