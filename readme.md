@@ -4,7 +4,7 @@ GitHub Repository: https://github.com/Mst-Sumi-Akter/Assignment-2
 
 Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 
-## Main Requirements 
+# Main Requirements 
 
 ### 1. Navbar
 
@@ -13,7 +13,7 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - **Mobile Responsiveness:**
   - Logo/website name on the left
   - Cart icon with name on the right as in Figma
-  - Other navbar elements will be hidden for a cleaner       mobile experience.
+  - Other navbar elements will be hidden for a cleaner mobile experience.
 
 ---
 
@@ -24,7 +24,7 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 - **Mobile Responsiveness:**
   - Image moves to the top
   - Content after image
-  - Content left-aligned as Figma
+  - Content left-aligned as in Figma
 
 ---
 
@@ -96,6 +96,6 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 
 - HTML
 - CSS (Vanilla/Tailwind CSS only)
-- ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed.**
+- ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed. ****
 
 ---
