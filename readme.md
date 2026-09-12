@@ -96,6 +96,6 @@ Live Link: https://mst-sumi-akter.github.io/Assignment-2/
 
 - HTML
 - CSS (Vanilla/Tailwind CSS only)
-- ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed. ** ** ****
+- ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed. ** ** ** ****
 
 ---
